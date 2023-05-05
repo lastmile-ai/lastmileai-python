@@ -12,10 +12,10 @@ class Lastmile(object):
   # can also call this 'login' or something in cli/interactive usage
   # Note should probably get from env var or some secret store, this is just
   # for demonstration purposes
-  def auth(self, api_key):
+  def __init__(self, api_key) -> None:
     self.api_key = api_key
 
-  def api_health():
+  def api_health(self):
     url = "https://lastmileai.dev/api/health"
     resp = requests.get(url)
     return resp.json()
