@@ -62,3 +62,10 @@ completion = lastmile.create_openai_completion(
   embedding_collection_id = "clfpqyvpp004npmzgp1d4j4fw"
 )
 ```
+
+## Run tests
+
+```
+pip3 install -e .
+python3 -m unittest discover test
+```
