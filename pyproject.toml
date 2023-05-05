@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "lastmileai"
+version = "0.0.1"
+authors = [
+  { name="Suyog Sonwalkar", email="flux159@gmail.com" },
+]
+description = "Python library for LastMile AI API"
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+  "Intended Audience :: Developers",
+  "Programming Language :: Python :: 3",
+]
+
+dependencies = [
+  "requests==2.30.0",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/lastmile-ai/lastmileai-python"
+"Bug Tracker" = "https://github.com/lastmile-ai/lastmileai-python/issues"
