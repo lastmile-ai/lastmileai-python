@@ -5,12 +5,12 @@ import os
 import sys
 sys.path.append('../src')
 
-from lastmileai import Lastmile
+from lastmileai import LastMile
 
 
 class APITestCase(unittest.TestCase):
     def setUp(self):
-        self.lastmile = Lastmile(api_key=os.environ.get('LASTMILEAI_API_KEY'))
+        self.lastmile = LastMile(api_key=os.environ.get('LASTMILEAI_API_KEY'))
 
     def test_health(self):
         res = self.lastmile.api_health()

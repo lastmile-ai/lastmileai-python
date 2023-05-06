@@ -7,7 +7,7 @@ from random import randint
 import os
 import mimetypes
 
-class Lastmile(object):
+class LastMile(object):
   # Set api_key for other methods, 
   # can also call this 'login' or something in cli/interactive usage
   # Note should probably get from env var or some secret store, this is just
