@@ -65,6 +65,8 @@ completion = lastmile.create_openai_completion(
 
 ## Run tests
 
+After setting `LASTMILEAI_API_KEY` in your shell environment, run the following:
+
 ```
 pip3 install -e .
 python3 -m unittest discover test
