@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "lastmileai"
-version = "0.0.2"
+version = "0.0.3"
 authors = [
   { name="Suyog Sonwalkar", email="flux159@gmail.com" },
 ]
@@ -17,7 +17,7 @@ classifiers = [
 ]
 
 dependencies = [
-  "requests==2.30.0",
+  "requests>=2.30.0",
 ]
 
 [project.urls]
